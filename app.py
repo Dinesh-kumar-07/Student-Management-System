@@ -10,7 +10,7 @@ from mysql.connector import Error
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "Dinesh@2004",
+    "password": "YOUR DATABASE PASSWORD",
     "database": "student_management"
 }
 
