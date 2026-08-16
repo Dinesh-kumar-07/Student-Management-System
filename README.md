@@ -59,29 +59,5 @@ Foreign-key constraints, unique constraints and indexes are included.
 2. Install MySQL Server.
 3. Run `database.sql` in MySQL Workbench.
 4. Open `app.py`.
-5. Change:
 
-```python
-DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "YOUR_MYSQL_PASSWORD",
-    "database": "student_management"
-}
-```
 
-6. Install the dependency:
-
-```bash
-pip install -r requirements.txt
-```
-
-7. Start the application:
-
-```bash
-python app.py
-```
-
-## Important
-
-Do not upload your actual MySQL password to GitHub. For a production application, use environment variables or a secure configuration file.
